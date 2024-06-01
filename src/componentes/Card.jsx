@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, Image, Badge, Text, VStack } from "@chakra-ui/react";
 
 const Card = ({ title, description, imageUrl, badge }) => {

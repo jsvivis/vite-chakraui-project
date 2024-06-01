@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, Text, VStack, Avatar } from "@chakra-ui/react";
 
 const Testimonial = ({ name, feedback, imageUrl }) => {

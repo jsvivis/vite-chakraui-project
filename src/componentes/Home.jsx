@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, Heading, Text, Button, VStack, Image, SimpleGrid } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
