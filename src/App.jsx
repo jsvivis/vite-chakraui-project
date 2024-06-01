@@ -1,13 +1,18 @@
 import './App.css'
+import React from 'react';
+import Header from './components/Header';
+import Home from './components/Home';
 
-function App() {
-  
-
+const App = () => {
   return (
     <div>
-      <h1>Atividade Vite React Javascript ChakraUi</h1>
+      <Header />
+      <main>
+        <Home />
+      </main>
     </div>
-  )
-}
+  );
+};
+
 
 export default App
