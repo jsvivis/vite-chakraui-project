@@ -28,7 +28,7 @@ import {
             boxShadow={"0 1px 2px #ccc"}
           >
             <FormControl>
-  
+  <center>Formulário de Cadastro</center>
               <HStack>
                 <Box>
                   <FormLabel>Nome Completo</FormLabel>
