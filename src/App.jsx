@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Routes, Route } from "react-router-dom";
 import { Home } from "./Componentes/Home";
 import { Contato } from "./Componentes/Contato";
@@ -36,17 +37,20 @@ import './App.css'
 import React from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
+=======
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
+>>>>>>> dd901449b862d0342379feb6da8edb57a359e055
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <main>
-        <Home />
-      </main>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch>
+    </Router>
   );
 };
 
-
-export default App
+export default App;
