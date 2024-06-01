@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Routes, Route } from "react-router-dom";
 import { Home } from "./Componentes/Home";
 import { Contato } from "./Componentes/Contato";
@@ -33,7 +32,6 @@ function App() {
   );
 }
 export default App;
-=======
 import './App.css'
 import React from 'react';
 import Header from './components/Header';
@@ -52,4 +50,3 @@ const App = () => {
 
 
 export default App
->>>>>>> 31329495222b7e23e9a2bd19d9440234c545094c
