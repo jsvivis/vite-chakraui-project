@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Routes, Route } from "react-router-dom";
 import { Home } from "./Componentes/Home";
 import { Contato } from "./componentes/Contato";
@@ -37,11 +36,10 @@ import './App.css'
 import React from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
-=======
+
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
->>>>>>> dd901449b862d0342379feb6da8edb57a359e055
 
 const App = () => {
   return (
