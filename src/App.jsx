@@ -1,11 +1,11 @@
 <<<<<<< HEAD
 import { Routes, Route } from "react-router-dom";
 import { Home } from "./Componentes/Home";
-import { Contato } from "./Componentes/Contato";
+import { Contato } from "./componentes/Contato";
 import { Footer } from "./Componentes/Footer";
 import { Header } from "./Componentes/Header";
 import { Produtos } from "./Componentes/Produtos";
-import { Sobre } from "./Componentes/Sobre";
+import { Sobre } from "./componentes/Sobre";
 import "./Styles.global.css";
 import "./App.css";
 
