@@ -1,8 +1,8 @@
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
 export function Produto(props) {
     return (
-      <h1>{props.nomePagina}</h1>
-    )
+      <h1>{props.nomePagina}</h1>   
+     )
   }
   
   <Card
