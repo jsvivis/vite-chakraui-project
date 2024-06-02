@@ -65,12 +65,12 @@ import {
   
               <HStack>
                 <Box>
-                  <FormLabel>Logradouro|Bairro</FormLabel>
+                  <FormLabel>Logradouro|Bairro|Cidade</FormLabel>
                   <Input id='endereco' placeholder='Logradouro|Bairro' />
                 </Box>
                 <Box>
-                  <FormLabel>Cidade|Estado|País</FormLabel>
-                  <Input id='cidade' placeholder='Cidade|Estado|País' />
+                  <FormLabel>CEP|Estado|País</FormLabel>
+                  <Input id='cep' placeholder='CEP|Estado|País' />
                 </Box>
               </HStack>
   
